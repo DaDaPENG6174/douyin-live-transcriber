@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local models, caches and credentials
+.cache/
+model_cache/
+*.env
+.env.*
+
+# Media and generated processing outputs
+output/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.flv
+*.ts
+*.webm
+*.wav
+*.mp3
+*.m4a
+
+# Generated Word/PDF bundles and QA renders
+docx_qa/
+*_DOCX/
+*.pdf
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated and personal Word documents
+*.docx
+
